@@ -123,8 +123,6 @@ def main():
     pygame.mixer.music.set_volume(0.3)  # sound volume (0.0 ~ 1.0)
     pygame.mixer.music.play(-1)  # infinite sound
 
-
-    # Get a font for printing the lives left on the screen.
     # Get a font for printing the lives left on the screen.
     myfont = pygame.font.SysFont('monospace', 24)
 
